@@ -1,7 +1,7 @@
 {
   "name": "grunt-jade-tss",
   "description": "Compile Jade templates To TSS.",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "homepage": "https://github.com/Casear/Grunt-Jade2TSS",
   "author": {
     "name": "Casear Chu",
