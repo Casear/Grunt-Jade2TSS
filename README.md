@@ -15,14 +15,14 @@ npm install grunt-jade-tss --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-jade2TSS');
+grunt.loadNpmTasks('grunt-jade-tss');
 ```
 
 
 ### Usage Examples
 
 ```js
-jade: {
+j2tss: {
   compile: {
     options: {
       data: {
