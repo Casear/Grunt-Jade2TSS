@@ -30,7 +30,7 @@
   "dependencies": {
     "jade": "~0.31.0",
     "grunt-lib-contrib": "~0.5.1",
-    "xml2tss":"~0.0.2"
+    "xml2tss":"http://github.com/Casear/xml2tss/tarball/master"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.2.0",
