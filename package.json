@@ -1,0 +1,50 @@
+{
+  "name": "grunt-jade-tss",
+  "description": "Compile Jade templates To TSS.",
+  "version": "0.7.0",
+  "homepage": "https://github.com/Casear/Grunt-Jade2TSS",
+  "author": {
+    "name": "Casear Chu",
+    "url": "http://casear.chuto.tw/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Casear/Grunt-Jade2TSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Casear/Grunt-Jade2TSS/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+     
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "jade": "~0.31.0",
+    "grunt-lib-contrib": "~0.5.1",
+    "xml2tss":"~0.0.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-internal": "~0.4.2",
+    "grunt-contrib-coffee":"*",
+    "grunt-contrib-watch":"*",
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
