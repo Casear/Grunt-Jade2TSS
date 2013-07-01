@@ -71,7 +71,7 @@
                 d = grunt.file.read(f.dest);
                 for (_i = 0, _len = data.length; _i < _len; _i++) {
                   p = data[_i];
-                  tmpP = p.replace('.', '\.');
+                  tmpP = p.replace('.', '\\.');
                   t = new RegExp('\\"' + tmpP + '\\"(\\s*):(\\s*){(\\s|.)*}', "m");
                   if (!t.test(d)) {
                     result.push(p);
