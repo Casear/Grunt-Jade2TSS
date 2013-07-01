@@ -72,7 +72,8 @@ module.exports = (grunt)->
               result = []
               d = grunt.file.read(f.dest)
               for p in data 
-                t =  new RegExp('\\"'+p+'\\"(\\s*):(\\s*){(\\s|.)*}',"m")
+                tmpP = p.replace('.','\.')
+                t =  new RegExp('\\"'+tmpP+'\\"(\\s*):(\\s*){(\\s|.)*}',"m")
                 if not t.test d
                   result.push p
             
