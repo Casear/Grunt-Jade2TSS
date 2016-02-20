@@ -17,7 +17,6 @@
   "licenses": [
     {
       "type": "MIT"
-     
     }
   ],
   "main": "Gruntfile.js",
@@ -30,19 +29,19 @@
   "dependencies": {
     "jade": "~0.31.0",
     "grunt-lib-contrib": "~0.5.1",
-    "xml2tss":"http://github.com/Casear/xml2tss/tarball/master"
+    "xml2tss": "http://github.com/Casear/xml2tss/tarball/master"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-internal": "~0.4.2",
-    "grunt-contrib-coffee":"*",
-    "grunt-contrib-watch":"*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-watch": "*",
     "grunt": "~0.4.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin"
